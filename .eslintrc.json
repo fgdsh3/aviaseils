@@ -35,7 +35,7 @@
   "settings": {
     "import/resolver": {
       "typescript": {
-        "project": "./tsconfig.json"
+        "project": "C:/sites/test/my-app/tsconfig.json"
       }
     },
     "react": {
