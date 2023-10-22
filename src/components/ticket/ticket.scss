@@ -1,0 +1,20 @@
+.ticket-list__item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.10);
+
+  &-price {
+    color: #2196F3;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 26px;
+  }
+
+  .descr-row-second {
+    margin-top: 10px;
+  }
+}

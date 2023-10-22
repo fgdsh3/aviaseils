@@ -1,0 +1,38 @@
+.head-filter {
+  text-transform: uppercase;
+  border: 1px solid #DFE5EC;
+  width: 33.333%;
+  transition: all .3s;
+
+  &:hover {
+    background-color: #caddfb;
+    border-color: #caddfb;
+  }
+
+  &--active {
+    color: #fff;
+    background-color: #2196F3;
+    border-color: #2196F3;
+  }
+
+  &--active:hover {
+    background-color: #2076ba;
+    border-color: #2076ba;
+  }
+}
+
+.head-filters {
+  display: flex;
+
+  & .head-filter:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+  }
+
+  & .head-filter:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+  }
+}
