@@ -43,6 +43,7 @@
     }
   },
   "rules": {
+    "no-unneeded-ternary": "off",
     "import/newline-after-import": "off",
     "import/no-useless-path-segments": "off",
     "import/no-relative-packages": "off",

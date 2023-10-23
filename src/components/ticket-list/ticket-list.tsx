@@ -64,10 +64,7 @@ export const TicketList: FC = () => {
 
   const ticketListClassNames = classNames({
     'ticket-list': true,
-    sorting:
-      sortedTickets.length > 0
-        ? loading === 'sorting' || loading === 'sorting and pending'
-        : null,
+    sorting: loading === 'sorting' || loading === 'sorting and pending',
   });
 
   return (
