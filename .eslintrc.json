@@ -23,7 +23,7 @@
     "sourceType": "module",
     "tsconfigRootDir": ".",
     "project": [
-      "C:/sites/test/my-app/tsconfig.json"
+      "./tsconfig.json"
     ]
   },
   // Configuring third-party plugins
@@ -35,7 +35,7 @@
   "settings": {
     "import/resolver": {
       "typescript": {
-        "project": "C:/sites/test/my-app/tsconfig.json"
+        "project": "./tsconfig.json"
       }
     },
     "react": {
